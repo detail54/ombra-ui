@@ -1,10 +1,10 @@
 import React from 'react'
 import { ComponentStory, ComponentMeta } from '@storybook/react'
 
-import Button from '.'
+import Button from '../../Atoms/button'
 
 export default {
-  title: 'Ombra-UI/Templates/Boards/listBoard(CardBoard)',
+  title: 'Ombra-UI/Templates/Boards/CardBoard',
   component: Button,
 } as ComponentMeta<typeof Button>
 
