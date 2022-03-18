@@ -4,10 +4,14 @@ import { ComponentStory, ComponentMeta } from '@storybook/react'
 import Button from '.'
 
 export default {
-  title: 'Buttons/Button',
+  title: 'Ombra-UI/Atoms/Buttons/Button',
   component: Button,
   argTypes: {
-    backgroundColor: { control: 'color' },
+    bgColor: { control: 'color' },
+    fontColor: { control: 'color' },
+    buttonType: ['round', 'middle', 'angled'],
+    size: ['small', 'medium', 'large'],
+    border: 'string',
   },
 } as ComponentMeta<typeof Button>
 
