@@ -1,7 +1,7 @@
 import React from 'react'
 import { ComponentStory, ComponentMeta } from '@storybook/react'
 
-import Button from '../../Atoms/button'
+import Button from '../../Atoms/buttons/basicButton'
 
 export default {
   title: 'Ombra-UI/Molecules/Cards/NameCard',

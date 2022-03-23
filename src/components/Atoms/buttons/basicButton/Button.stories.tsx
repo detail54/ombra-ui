@@ -3,7 +3,7 @@ import { ComponentStory, ComponentMeta } from '@storybook/react'
 import Button from '.'
 
 export default {
-  title: 'Ombra-UI/Atoms/Buttons/Button',
+  title: 'Ombra-UI/Atoms/Buttons/BasicButton',
   component: Button,
   argTypes: {
     bgColor: { control: 'color' },
