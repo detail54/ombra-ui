@@ -20,6 +20,7 @@ SingleArrow.args = {
   styles: {
     disabled: false,
     margin: '0',
+    size: 'small',
   },
   onClick: () => {},
 }
@@ -27,11 +28,12 @@ SingleArrow.args = {
 export const DoubleArrow = Template.bind({})
 DoubleArrow.args = {
   arrowType: 'double',
-  direction: 'right',
+  direction: 'left',
   disabled: false,
   styles: {
     disabled: false,
     margin: '0',
+    size: 'large',
   },
   onClick: () => {},
 }

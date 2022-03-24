@@ -15,12 +15,12 @@ const ArrowButton: React.FC<IArrowButtonProps> = ({
         <ArrowButtonSC.SingleArrowTopLine
           direction={direction}
           arrowColor={styles?.arrowColor}
-          arrowlocation='single left'
+          size={styles?.size}
         />
         <ArrowButtonSC.SingleArrowBottomLine
           direction={direction}
           arrowColor={styles?.arrowColor}
-          arrowlocation='single right'
+          size={styles?.size}
         />
       </>
     ) : (
@@ -28,22 +28,26 @@ const ArrowButton: React.FC<IArrowButtonProps> = ({
         <ArrowButtonSC.DoubleArrowTopLine
           direction={direction}
           arrowColor={styles?.arrowColor}
-          arrowlocation='double left'
+          arrowlocation='left'
+          size={styles?.size}
         />
         <ArrowButtonSC.DoubleArowBottomLine
           direction={direction}
           arrowColor={styles?.arrowColor}
-          arrowlocation='double left'
+          arrowlocation='left'
+          size={styles?.size}
         />
         <ArrowButtonSC.DoubleArrowTopLine
           direction={direction}
           arrowColor={styles?.arrowColor}
-          arrowlocation='double right'
+          arrowlocation='right'
+          size={styles?.size}
         />
         <ArrowButtonSC.DoubleArowBottomLine
           direction={direction}
           arrowColor={styles?.arrowColor}
-          arrowlocation='double right'
+          arrowlocation='right'
+          size={styles?.size}
         />
       </>
     )

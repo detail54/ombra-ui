@@ -1,11 +1,7 @@
 type TButtonSize = 'small' | 'medium' | 'large'
 type TArrowDirection = 'left' | 'right'
 type TArrowType = 'single' | 'double'
-type TArrowLocation =
-  | 'single left'
-  | 'single right'
-  | 'double left'
-  | 'double right'
+type TArrowLocation = 'left' | 'right'
 
 export interface IArrowButtonStyles {
   disabled?: boolean
@@ -19,7 +15,8 @@ export interface IArrowButtonStyles {
 export interface IArrowStyles {
   direction: TArrowDirection
   arrowColor?: string
-  arrowlocation: TArrowLocation
+  arrowlocation?: TArrowLocation
+  size?: TButtonSize
 }
 
 export interface IArrowButtonProps {
