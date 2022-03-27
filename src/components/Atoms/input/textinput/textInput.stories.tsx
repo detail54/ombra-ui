@@ -2,7 +2,7 @@ import { ComponentStory, ComponentMeta } from '@storybook/react'
 import Input from '.'
 
 export default {
-  title: 'Ombra-UI/Atoms/Inputs/Input',
+  title: 'Ombra-UI/Atoms/Input/TextInput',
   component: Input,
   argTypes: {
     length: ['short', 'medium', 'long'],

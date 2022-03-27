@@ -20,7 +20,7 @@ const Warpper = Styled.div`
   `}
 `
 
-const Input = Styled.input`
+const TextInput = Styled.input`
   border: none;
   width: 100%;
 
@@ -29,7 +29,7 @@ const Input = Styled.input`
   }
 `
 
-export const InputSC = {
+export const TextInputSC = {
   Warpper,
-  Input,
+  TextInput,
 }
