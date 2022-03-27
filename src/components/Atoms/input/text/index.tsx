@@ -1,8 +1,8 @@
 import React from 'react'
-import { IProps } from './interface'
+import { ITextInputProps } from './interface'
 import { TextInputSC } from './textInput.styles'
 
-const TextInput: React.FC<IProps> = ({
+const TextInput: React.FC<ITextInputProps> = ({
   baseText = '',
   placeHolder = '',
   length = 'medium',

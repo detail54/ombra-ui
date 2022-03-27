@@ -1,12 +1,12 @@
 type TInputLength = 'short' | 'medium' | 'long'
 
-export interface IProps {
+export interface ITextInputProps {
   baseText?: string
   placeHolder?: string
   length?: TInputLength
   onChange: (text: string) => void
 }
 
-export interface IStyleProps {
+export interface ITextInputStyleProps {
   length: TInputLength
 }

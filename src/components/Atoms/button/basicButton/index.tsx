@@ -1,8 +1,8 @@
 import React from 'react'
 import { ButtonSC as Styled } from './Button.styles'
-import { IProps } from './interface'
+import { IBasicButtonProps } from './interface'
 
-const Button: React.FC<IProps> = ({
+const Button: React.FC<IBasicButtonProps> = ({
   label,
   styles = {
     bgColor: 'white',

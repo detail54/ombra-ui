@@ -1,5 +1,5 @@
 import Styled, { css } from 'styled-components'
-import { IStyleProps } from './interface'
+import { IBasicButtonStyle } from './interface'
 
 const BUTTON_TYPE = {
   round: '30px',
@@ -31,7 +31,7 @@ const Button = Styled.button`
   align-items: center;
   font-weight: 600;
   
-  ${(props: IStyleProps) => css`
+  ${(props: IBasicButtonStyle) => css`
     background-color: ${props.bgColor};
     border-radius: ${BUTTON_TYPE[props.buttonType]};
     width: ${BUTTON_WIDTH[props.size]};

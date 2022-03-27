@@ -1,5 +1,5 @@
 import Styled, { css } from 'styled-components'
-import { IStyleProps } from './interface'
+import { ITextInputStyleProps } from './interface'
 
 const INPUT_LENGTH = {
   short: '200px',
@@ -15,7 +15,7 @@ const Warpper = Styled.div`
   padding: 5px;
   border: 1px solid black;
 
-  ${(props: IStyleProps) => css`
+  ${(props: ITextInputStyleProps) => css`
     width: ${INPUT_LENGTH[props.length]};
   `}
 `

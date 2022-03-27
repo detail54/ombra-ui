@@ -1,14 +1,14 @@
 export type TButtonType = 'round' | 'middle' | 'angled'
 export type TButtonSize = 'large' | 'medium' | 'small'
 
-export interface IProps {
+export interface IBasicButtonProps {
   label: string
-  styles?: IStyleProps
+  styles?: IBasicButtonStyle
   disabled?: boolean
   onClick: () => void
 }
 
-export interface IStyleProps {
+export interface IBasicButtonStyle {
   bgColor: string
   fontColor: string
   buttonType: TButtonType
