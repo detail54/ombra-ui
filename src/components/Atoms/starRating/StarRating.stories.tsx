@@ -13,5 +13,9 @@ const Template: ComponentStory<typeof StarRating> = (args) => (
 
 export const Primary = Template.bind({})
 Primary.args = {
-  starCount: 5,
+  score: 2.5,
+  styles: {
+    starBaseColor: '#d1d5d9',
+    starColor: '#ffe400',
+  },
 }

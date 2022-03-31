@@ -1,10 +1,10 @@
 export interface IStraRatingStyleProps {
-  count: number
+  score?: number
   starColor?: string
+  starBaseColor?: string
 }
 
 export interface IStarRatingProps {
-  starCount: number
-  totalCount: number
-  style?: IStraRatingStyleProps
+  score: number
+  styles?: IStraRatingStyleProps
 }
