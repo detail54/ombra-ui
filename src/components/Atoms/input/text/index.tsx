@@ -3,6 +3,7 @@ import { ITextInputProps } from './interface'
 import { TextInputSC } from './textInput.styles'
 
 const TextInput: React.FC<ITextInputProps> = ({
+  type = 'text',
   baseText = '',
   placeHolder = '',
   length = 'medium',
@@ -11,6 +12,7 @@ const TextInput: React.FC<ITextInputProps> = ({
   return (
     <TextInputSC.Warpper length={length}>
       <TextInputSC.TextInput
+        type={type}
         value={baseText}
         placeholder={placeHolder}
         onChange={(event: React.ChangeEvent<HTMLInputElement>) =>
